@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!-- coding by TEAM-52-->
+<html lang="en" dir="ltr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>Word City</title>
+    <link rel="stylesheet" href="https://sport999.s3.amazonaws.com/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://sport999.s3.amazonaws.com/words.js" defer=""></script>
+    <script src="https://sport999.s3.amazonaws.com/script.js" defer=""></script>
+  </head>
+  <body>
+
+    <div class="container">
+
+        <h2>WORD CITY</h2>
+        <center><div class="startArea" onclick="start()"><button class="startBtn" fdprocessedid="0igunl">Start the Game</button></div></center>
+
+        <div class="content">
+            <p class="word"></p>
+            <div class="details">
+                <p class="hint">Hint: <span></span></p>
+                <p class="time">Time Left: <span><b>30</b>s</span></p>
+            </div>
+            <input type="text" spellcheck="false" placeholder="Enter a valid word">
+            <div class="buttons">
+                <button class="refresh-word">Refresh Word</button>
+                <button class="check-word">Check Word</button>
+            </div>
+            <div class="score-area"><span>Score: </span><span class="score">0</span></div>
+        </div>
+    </div>
+
+    
+  <!-- The Modal -->
+  <div id="myModal" class="modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close">×</span>
+      <p id="modalText"></p>
+    </div></div>
+
+    
+  
+</body></html>
